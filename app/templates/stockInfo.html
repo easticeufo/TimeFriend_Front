@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-2">
+            <input type="text" placeholder="股票代码" ng-model="stockCode">
+        </div>
+        <div class="col-xs-3">
+            <span>开始日期:&nbsp;</span>
+            <input type="text" uib-datepicker-popup ng-model="select.beginDate" is-open="beginOpened"
+                   ng-click="beginOpened=true">
+        </div>
+        <div class="col-xs-3">
+            <span>结束日期:</span>
+            <input type="text" uib-datepicker-popup ng-model="select.endDate" is-open="endOpened"
+                   ng-click="endOpened=true">
+        </div>
+        <div class="col-xs-2">
+            <input type="text" placeholder="今年净利润预测值" ng-model="netProfit">
+            <span>亿</span>
+        </div>
+        <div class="col-xs-2">
+            <button type="button" class="btn btn-default" ng-click="search()">查询</button>
+        </div>
+    </div>
+    <div class="row">
+        <angular-echarts option="peEchartsOption" style="height: 300px;"></angular-echarts>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <angular-echarts option="profitEchartsOption" style="height: 300px;"></angular-echarts>
+        </div>
+        <div class="col-xs-6">
+            <angular-echarts option="profitRateEchartsOption" style="height: 300px;"></angular-echarts>
+        </div>
+    </div>
+</div>

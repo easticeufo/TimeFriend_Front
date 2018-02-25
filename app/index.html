@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="eastApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- 防止IOS手机在微信浏览器下自动将数字转化为加链接的样式导致angularjs某些更新数据状态的异常效果 -->
+    <meta name="format-detection" content="telephone=no,email=no">
+
+    <title>时间的朋友</title>
+
+    <link href="framework/css/bootstrap.min.css" rel="stylesheet">
+    <link href="framework/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="common.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+</head>
+
+<body>
+
+<ui-view>
+    正在加载页面...
+</ui-view>
+
+<script src="framework/js/angular.min.js"></script>
+<script src="framework/js/angular-resource.min.js"></script>
+<script src="framework/js/angular-ui-router.min.js"></script>
+<script src="framework/js/ui-bootstrap-tpls-2.3.0.min.js"></script>
+<script src="framework/js/ng-file-upload.min.js"></script>
+
+<script src="modules/angular-echarts/echarts.min.js"></script>
+<script src="modules/angular-echarts/angular-echarts.js"></script>
+
+<script src="app.js"></script>
+<script src="services.js"></script>
+<script src="controllers.js"></script>
+<script src="filters.js"></script>
+
+</body>
+</html>

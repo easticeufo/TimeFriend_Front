@@ -1,0 +1,12 @@
+.app-brand{
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #CD8500;
+}
+
+.app-label{
+    font-style: italic;
+    font-size: small;
+    color: red;
+}

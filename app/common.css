@@ -1,0 +1,43 @@
+.green{
+    color: green;
+}
+
+.white{
+    color: white;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+.gray{
+    color: gray;
+}
+
+.purple{
+    color: purple;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.center{
+    text-align: center;
+}
+
+.cursorhand{
+    cursor:pointer;
+}
+
+.x-small{
+    font-size: x-small;
+}
+
+.xx-small{
+    font-size: xx-small;
+}
